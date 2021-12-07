@@ -12,12 +12,12 @@ export default function Home() {
       <Head>
         <title>Har Eline føda?</title>
         <meta name="description" content="Finn ut om Eline har føda" />
-        <meta property="og:url" content="https://harelineføda.no" />
+        <meta property="og:url" content="https://harelinef%C3%B8da.no" />
         <meta
           property="og:image"
           content="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/baby_1f476.png"
         />
-        <link rel="canonical" href="https://harelineføda.no" />
+        <link rel="canonical" href="https://harelinef%C3%B8da.no" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
