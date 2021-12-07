@@ -17,10 +17,10 @@ export default function Home() {
         />
         <meta name="og:locale" content="nb_NO" />
         <meta property="og:url" content="https://harelinef%C3%B8da.no" />
-        <meta property="og:title" content="https://harelinef%C3%B8da.no" />
+        <meta property="og:title" content="https://harelineføda.no" />
         <meta
           property="og:image"
-          content="https://harelinef%C3%B8da.no/android-chrome-512x512.png"
+          content="https://xn--harelinefda-ogb.no/android-chrome-512x512.png"
         />
         <link rel="canonical" href="https://harelinef%C3%B8da.no" />
         <link rel="icon" href="/favicon.ico" />
