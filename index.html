@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="no">
   <head>
-    <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
     <title>Har Eline føda?</title>
     <meta name="description" content="Finn ut om Eline har føda" />
@@ -18,29 +17,25 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>👶</text></svg>"
     />
+    <style>
+      b {
+        font-weight: 400;
+        font-family: apple color emoji, segoe ui emoji, noto color emoji,
+          android emoji, emojisymbols, emojione mozilla, twemoji mozilla,
+          segoe ui symbol;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      h1 {
+        font-size: 4rem;
+      }
+    </style>
   </head>
-  <style>
-    body,
-    html {
-      margin: 0;
-    }
-    .emoji {
-      font-weight: 400;
-      font-family: apple color emoji, segoe ui emoji, noto color emoji,
-        android emoji, emojisymbols, emojione mozilla, twemoji mozilla,
-        segoe ui symbol;
-    }
-    .main {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
-  <body class="main">
-    <h1 style="font-size: 4rem">
-      <span><span class="emoji">🤰🏼 </span>Eline har ikkje føda</span>
-      <span hidden><span class="emoji">👶</span> Eline har føda</span>
-    </h1>
-  </body>
+  <h1><b>🤰🏼</b> Eline har ikkje føda</h1>
+  <h1 hidden><b>👶</b> Eline har føda</h1>
 </html>
