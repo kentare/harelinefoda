@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
     <meta name="viewport" content="width=device-width" />
     <meta charset="utf-8" />
@@ -9,52 +9,38 @@
       name="og:description"
       content="Har Eline føda enda? Finn det ut her"
     />
-    <meta name="og:locale" content="nb_NO" />
-    <meta property="og:url" content="https://harelinef%C3%B8da.no" />
     <meta property="og:title" content="https://HarElineFøda.no" />
     <meta
       property="og:image"
       content="https://xn--harelinefda-ogb.no/android-chrome-512x512.png"
     />
-    <link rel="canonical" href="https://harelinef%C3%B8da.no" />
-    <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>👶</text></svg>"
+    />
   </head>
   <style>
+    body,
+    html {
+      margin: 0;
+    }
     .emoji {
       font-weight: 400;
       font-family: apple color emoji, segoe ui emoji, noto color emoji,
         android emoji, emojisymbols, emojione mozilla, twemoji mozilla,
         segoe ui symbol;
     }
-    .container {
-      padding: 0 2rem;
-    }
-
     .main {
-      min-height: 100vh;
-      padding: 4rem 0;
-      flex: 1;
+      height: 100vh;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-
-    .title {
-      margin: 0;
-      line-height: 1.15;
-      font-size: 4rem;
-    }
   </style>
-  <script src=""></script>
-  <body>
-    <div class="container">
-      <main class="main" }>
-        <h1 class="title">
-          <span><span class="emoji">🤰🏼 </span>Eline har ikkje føda</span>
-          <span hidden><span class="emoji">👶</span> Eline har føda</span>
-        </h1>
-      </main>
-    </div>
+  <body class="main">
+    <h1 style="font-size: 4rem">
+      <span><span class="emoji">🤰🏼 </span>Eline har ikkje føda</span>
+      <span hidden><span class="emoji">👶</span> Eline har føda</span>
+    </h1>
   </body>
 </html>
